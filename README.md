@@ -75,13 +75,21 @@ a. Team: How to get more people to be aware of this (advanced training to make a
    
 b. John: Create videos for display in emails (instead of text) about next steps, etc. within a drip email sequence.
    
-c. Mike: Create <strong>automated test scripts</strong> (based on <a href="#Procedures">documented procedures</a>) to verify whether the system works "end-to-end" (for different personas), to identify whether the sytem still works after changes. Kinda like auto-fill on steroids.
-   
+c. Mike Ko: Create <strong>automated test scripts</strong> to verify whether the system works "end-to-end" (for different personas), to identify whether the sytem still works after changes.
+
+   1. Instructions for installing https://www.cypress.io/ on Windows (not Mac yet) in https://github.com/ywamconverge/ywamconverge.github.io/edit/master/TESTING.md and opinions about it vs. other tools
+   2. Write tests to invoke then assert responses from top menu (Facebook, Search for "signup", Donate, Videos on landing page) on the production page https://www.ywamocnj.org/.
+   3. Student sign-up (not appearing in prod but in test site)
+   4. Track over time how long it took to load page.
+   5. other use cases (pages).
+
+d. Mike Ko: Identify in test site CSS/HTML changes to media query, etc. to display mobile screen size.
+
 d. Dan: Upgrade front-end server version upgrade (to Ruby, Postgres, TLS 1.2 for Braintree, etc.).
    
 e. Wilson: Create instructions (this page) to enable volunteers to create a dev environment and contribute changes. 
    
-f. Wilson/Dan: Convert bash scripts and instructions to create a dev instance of Ruby server running on Ubuntu.
+f. Dan/Wilson: Convert bash scripts and instructions to create a dev instance of Ruby server running on Ubuntu.
    
 g. Kermit: To <strong>troubleshoot without worry</strong>, define manual procedures and scripts to create a <strong>stand-alone Saleforce Dev. instance</strong> (a "crash dummy") containing metadata and filtered/cleansed data from production org sandbox:
 
