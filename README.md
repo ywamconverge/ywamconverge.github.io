@@ -75,7 +75,7 @@ a. Team: How to get more people to be aware of this (advanced training to make a
    
 b. John: Create videos for display in emails (instead of text) about next steps, etc. within a drip email sequence.
    
-c. Create <strong>automated test scripts</strong> (based on <a href="#Procedures">documented procedures</a>) to verify whether the system works "end-to-end" (for different personas), to identify whether the sytem still works after changes. Kinda like auto-fill on steroids.
+c. Mike: Create <strong>automated test scripts</strong> (based on <a href="#Procedures">documented procedures</a>) to verify whether the system works "end-to-end" (for different personas), to identify whether the sytem still works after changes. Kinda like auto-fill on steroids.
    
 d. Dan: Upgrade front-end server version upgrade (to Ruby, Postgres, TLS 1.2 for Braintree, etc.).
    
