@@ -303,7 +303,7 @@ Since it can take awhile to copy, an email is sent when it's done. To get data r
 
 The <strong>DataLoader</strong> utility is used to put data in Sandboxes. Because we are dealing with private production data, <strong>cleansing</strong> for duplicates and/or <strong>masking</strong> for privacy after export needs to done. Doing that directly in production provides for validation before committing. 
 
-Trraditionally, developers create <strong>Change Sets</strong> to patch metadata, and run Salesforce Apex tests and <strong>UI tests using Selenium or TOSCA/Flood.io</a> before pushing changes through various environments.
+Trraditionally, developers create <strong>Change Sets</strong> to patch metadata, and run Salesforce Apex tests and <strong>UI tests using Selenium or TOSCA/Flood.io</strong> before pushing changes through various environments.
 
 In 2018, Salesforce made available DX (Developer Experience) that manages temporary <strong>Scratch</strong> orgs updated by metadata stored in a Git version control repository. Temporary means <strong>7-30</strong> days before they disappear automatically.
 
