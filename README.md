@@ -251,13 +251,11 @@ https://docs.google.com/document/d/1rxevxCrjYqFlp60rMMLvMheJGM6hR-bqC8UFw8PDYbs/
 
    Note the number of each available. 1:21
 
-   ![sf-ywam-sandbox-list](https://user-images.githubusercontent.com/300046/62666711-bd36aa80-b941-11e9-8e65-ca2f48f370a1.png)
-
 1. Click “New Sandbox”. 3:05 
 1. Review the differences among different types of sandboxes.
 1. Before typing in the Name field, click “Create From”. 3:32
 
-   ![sf-ywam-sandboxes](https://user-images.githubusercontent.com/300046/62665843-f2d99480-b93d-11e9-840b-9a987ba83f93.jpg)
+   <a target="_blank" href="https://user-images.githubusercontent.com/300046/62665843-f2d99480-b93d-11e9-840b-9a987ba83f93.jpg"><img alt="sf-ywam-sandboxes.jpg" src="https://user-images.githubusercontent.com/300046/62665843-f2d99480-b93d-11e9-840b-9a987ba83f93.jpg</a>
 
    PROTIP: Because upper-case ones sort to the top while lower-case all appear in the bottom, enforce naming standards. This can confuse sequencing of Dev01, dev02, etc. So do like Salesforce’s “Production” and always use Title capital casing.
 
