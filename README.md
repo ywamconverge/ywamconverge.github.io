@@ -241,15 +241,13 @@ Is the information correct? [Y/n]
 
 ## F) Create a new Salesforce sandbox with metadata
 
-https://docs.google.com/document/d/1rxevxCrjYqFlp60rMMLvMheJGM6hR-bqC8UFw8PDYbs/edit
-
 1. Get an account name to the Salesforce org you want to work on (in an email).
 1. Login as admin. into the Production org (which has the data)?
 1. Get into Setup. 0:53
 
 1. Search “Sandboxes”. 1:05
 
-   Note the number of each available. 1:21
+   Note the number of each type of sandbox available. 1:21
 
 1. Click “New Sandbox”. 3:05 
 1. Review the differences among different types of sandboxes.
