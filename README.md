@@ -251,6 +251,8 @@ https://docs.google.com/document/d/1rxevxCrjYqFlp60rMMLvMheJGM6hR-bqC8UFw8PDYbs/
 
    Note the number of each available. 1:21
 
+   ![sf-ywam-sandbox-list](https://user-images.githubusercontent.com/300046/62666711-bd36aa80-b941-11e9-8e65-ca2f48f370a1.png)
+
 1. Click “New Sandbox”. 3:05 
 1. Review the differences among different types of sandboxes.
 1. Before typing in the Name field, click “Create From”. 3:32
