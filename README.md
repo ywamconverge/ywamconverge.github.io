@@ -7,9 +7,12 @@ B. <a href="#TechArchitecture">Understand the technical architecture</a><br />
 C. <a href="#PickProject">     Pick a project</a><br />
 D. <a href="#Collaboration">   Setup collaboration tools and techniques</a><br />
 E. <a href="#Website">         Copy the public-facing website</a><br />
-F. <a href="#Salesforce">      Create a copy of the Salesforce org</a><br />
-G. <a href="#Changes">         Plan changes, update test scripts</a><br />
-H. <a href="#TestDeploy">      Run tests, make changes, and deploy</a>
+
+F. <a href="#NewSandbox">      Create a new Salesforce sandbox</a> ("Dev03") with metadata<br />
+G. <a href="#SalesforceData">  Import object data into Salesforce sandbox</a><br />
+
+H. <a href="#Changes">         Plan changes, update test scripts</a><br />
+I. <a href="#TestDeploy">      Run tests, make changes, and deploy</a>
 
 <hr />
 
@@ -234,9 +237,36 @@ Is the information correct? [Y/n]
    BTW The script is supposed to be idempotent because it erases resident folders from the previous run.
 
 
-<a name="Salesforce"></a>
+<a name="NewSandbox"></a>
 
-## F) Create a copy of the Salesforce database
+## F) Create a new Salesforce sandbox with metadata
+
+https://docs.google.com/document/d/1rxevxCrjYqFlp60rMMLvMheJGM6hR-bqC8UFw8PDYbs/edit
+
+1. Login as admin. ?
+1. Get into Setup. 0:53
+
+1. Search “Sandboxes”. 1:05
+
+   Note the number of each available. 1:21
+
+1. Click “New Sandbox”. 3:05 
+1. Review the differences among different types of sandboxes.
+1. Before typing in the Name field, click “Create From”. 3:32
+
+   ![sf-ywam-sandboxes](https://user-images.githubusercontent.com/300046/62665843-f2d99480-b93d-11e9-840b-9a987ba83f93.jpg)
+
+   PROTIP: Because upper-case ones sort to the top while lower-case all appear in the bottom, enforce naming standards. This can confuse sequencing of Dev01, dev02, etc. So do like Salesforce’s “Production” and always use Title capital casing.
+
+1. Click “Next” in the Developer section for Sandbox Options. 4:29
+1. Click “Create” without typing anything in the Apex class field.
+1. Wait for “Pending in Queue” Status to turn to 
+
+
+
+<a name="SalesforceData"></a>
+
+## G) Upload object data into Salesforce sandbox
 
 Salesforce provides weekly production backup zip. 
 It's triggered by a scheduled job from a service account which receives emails when done.
@@ -364,7 +394,7 @@ https://developer.salesforce.com/docs/atlas.en-us.216.0.sfdx_dev.meta/sfdx_dev/s
 
 <a name="TestDeploy"></a>
 
-## H) Run tests, make changes, and deploy
+## I) Run tests, make changes, and deploy
 
 1. Run a test of the existing test suite to ensure that everything works.
 
