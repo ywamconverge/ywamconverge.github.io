@@ -243,7 +243,8 @@ Is the information correct? [Y/n]
 
 https://docs.google.com/document/d/1rxevxCrjYqFlp60rMMLvMheJGM6hR-bqC8UFw8PDYbs/edit
 
-1. Login as admin. ?
+1. Get an account name to the Salesforce org you want to work on (in an email).
+1. Login as admin. into the Production org (which has the data)?
 1. Get into Setup. 0:53
 
 1. Search “Sandboxes”. 1:05
@@ -260,13 +261,17 @@ https://docs.google.com/document/d/1rxevxCrjYqFlp60rMMLvMheJGM6hR-bqC8UFw8PDYbs/
 
 1. Click “Next” in the Developer section for Sandbox Options. 4:29
 1. Click “Create” without typing anything in the Apex class field.
-1. Wait for “Pending in Queue” Status to turn to 
+1. Wait for “Pending in Queue” Status (about 10 minutes), and an email is received 
+1. Edit the login URL in the email with subject such as "Sandbox: Dev03 is ready to use".
+1. Login using a Username suffixed with the sandbox name and your regular password, such as ".Dev03". Verify your identify.
+1. The URL should include "--dev03.lightning.force.com".
+1. Active Licensed users would have a Username with the sandbox appended.
 
 
 
 <a name="SalesforceData"></a>
 
-## G) Upload object data into Salesforce sandbox
+## G) Import object data into Salesforce sandbox
 
 Salesforce provides weekly production backup zip. 
 It's triggered by a scheduled job from a service account which receives emails when done.
