@@ -140,9 +140,7 @@ https://ywamconverge.doodle.com/jthenry
 
 John makes use of Zoom for group video conferencing that can be recorded. The Zoom Meeting ID is: 236 178 0585
 
-Technical Volunteers may use Zoom for meetings anytime: https://zoom.us/j/2361780585
-
-One tap mobile => +19292056099,,2361780585# US (New York) -or- +16699006833,,2361780585# US (San Jose)
+Technical Volunteers may use Zoom for meetings anytime: https://zoom.us/j/6212275173
 
 
 2. From John, get an email invite to the Slack channel used by developers (join the channels):
