@@ -51,6 +51,12 @@ I. <a href="#TestDeploy">      Run tests, make changes, and deploy</a>
 https://www.youtube.com/watch?v=hSqbotfxZAA
 Dec 23, 2015
 
+ - Watch "Create an Internship" Host App help videos: 
+ 	Page One: https://youtu.be/Y8b8EjnE6p8
+	Page Two: https://youtu.be/VF6HuSuJXdo
+	Page Three: https://youtu.be/hGm5-ETqpaI
+	Page Four: https://youtu.be/IrdopkSjueM
+	Final Page: https://youtu.be/K3iDVedxYnU
 
 <a name="TechArchitecture"></a>
 
