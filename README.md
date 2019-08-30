@@ -51,7 +51,7 @@ I. <a href="#TestDeploy">      Run tests, make changes, and deploy</a>
 https://www.youtube.com/watch?v=hSqbotfxZAA
 Dec 23, 2015
 
- - Watch "Create an Internship" Host App help videos: 
+ - Watch "Create an Internship" Host App help videos: (These are to be added to the top of the Create and Internship app pages as thumbnail videos and links to youtube where translated CC: will be available.)
  	Page One: https://youtu.be/Y8b8EjnE6p8
 	Page Two: https://youtu.be/VF6HuSuJXdo
 	Page Three: https://youtu.be/hGm5-ETqpaI
