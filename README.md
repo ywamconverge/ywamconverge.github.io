@@ -142,7 +142,7 @@ n. Propose one of your own.
 If you haven't used the tools mentioned here, we will train you so that you can contribute confidently.
 
 1. Make an appointment with John at
-https://ywamconverge.doodle.com/jthenry
+https://calendly.com/john-t-henry
 
 John makes use of Zoom for group video conferencing that can be recorded. The Zoom Meeting ID is:
 236-178-0585
