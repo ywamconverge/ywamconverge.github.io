@@ -64,6 +64,7 @@ Dec 23, 2015
 
 The system consists of several components, <a target="_blank" href="https://docs.google.com/presentation/d/1o_T8XRfeiDLD62ums2hHYid5_qIFNHUlAkQ3YtV6E1k/edit#slide=id.p">described by this system flow chart on Google (created using Lucid Chart)<img align="right" alt="ywan-architecutre-2019a-200x183-7427" width="200" src="https://user-images.githubusercontent.com/300046/53695300-b2bb2800-3d87-11e9-9b8e-759a92d654dd.jpg"></a>
 
+   *<a href="#UserStories">See PDFs of User Stories for Hosts, Mentors, Students, and Donors</a> information used internally to build UX. <a target="_blank" href="https://www.dropbox.com/sh/nr245gp42boee6w/AADRuqGLNvIjqrG1XPT3Ve9ya?dl=0">User Stories</a>
    * <a href="#TrainingSite">A training management website</a> used by interns to learn about being an intern. Videos on it are stored (as Public) on the <a target="_blank" href="https://www.youtube.com/channel/UCacj____6p8-iiIN_Nk-iBw">YouTube channel</a>
    * <a href="#Website">A public-facing website</a> that exchanges information dynamically with
    * <a href="#Salesforce">A Salesforce org</a> database used internally for administration.
