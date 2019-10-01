@@ -70,11 +70,10 @@ The system consists of several components, <a target="_blank" href="https://docs
    * <a href="#Salesforce">A Salesforce org</a> database used internally for administration.
 
    * <a target="_blank" href="https://www.youtube.com/watch?v=FwNdD0yrBE4&list=PLJY5a7HPiwbWpw63i-4sFoKfXvEe-zxBV">Audio podcasts from 2018</a> are also stored on YouTube.
-   * Apple podcasts - https://podcasts.apple.com/us/podcast/converge-stories-podcast/id1440794904
-
+   * <a target="_blank" href="https://podcasts.apple.com/us/podcast/converge-stories-podcast/id1440794904/">Apple podcasts</a>
    * <a target="_blank" href="https://www.facebook.com/YWAMOCNJ/">Facebook</a>
-   * Instagram - https://www.instagram.com/ywamconverge/
- 
+   * <a target="_blank" href="https://www.instagram.com/ywamconverge/">Instagram</a>
+
 <a name="PickProject"></a>
 
 ## C) Pick a project
