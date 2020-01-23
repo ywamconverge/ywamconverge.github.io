@@ -47,14 +47,12 @@ I. <a href="#TestDeploy">      Run tests, make changes, and deploy</a>
    
    ### Process/Procedures
 
-8. Watch demo video of <a target="_blank" href="https://www.youtube.com/watch?v=jQuuvYIbbTA&feature=youtu.be">How to apply for a Converge intership</a> [2:20] No sound. The Ruby system is not mobile-friendly (progressive).
+8. Watch demo video of <a target="_blank" href="https://www.youtube.com/watch?v=jQuuvYIbbTA&feature=youtu.be">How to apply for a Converge intership</a> [2:20] No sound. The Ruby system is not mobile-friendly (progressive), addressed by <a href="#ResponsivenessUpdates">the changes for Progressive mobile use below</a>.
 
-9. Watch demo video of <a target="_blank" href="https://youtu.be/ejz9HEbg9Xo">host app</a>. No sound.
+9. Watch demo video of <a target="_blank" href="https://youtu.be/ejz9HEbg9Xo">host app</a> (No sound) at 
+   https://www.youtube.com/watch?v=hSqbotfxZAA Dec 23, 2015
 
-https://www.youtube.com/watch?v=hSqbotfxZAA
-Dec 23, 2015
-
- - Watch "Create an Internship" Host App help videos: (These are to be added to the top of the Create and Internship app pages as thumbnail videos and links to youtube where translated CC: will be available.)
+9. Watch "Create an Internship" Host App help videos: (These are to be added to the top of the Create and Internship app pages as thumbnail videos and links to youtube where translated CC: will be available.)
  	Page One: https://youtu.be/Y8b8EjnE6p8
 	Page Two: https://youtu.be/VF6HuSuJXdo
 	Page Three: https://youtu.be/hGm5-ETqpaI
@@ -95,6 +93,7 @@ c. Mike Ko: Create <strong>automated test scripts</strong> to verify whether the
    4. Track over time how long it took to load page.
    5. other use cases (pages).
 
+   <a name="ResponsivenessUpdates"></a>
 d. Implement CSS/HTML changes to media query, etc. to display mobile screen size, as designed by Mona at:
    https://docs.google.com/document/d/1fzrrrBXYAxcYfSFz-zeX42KR2iPnJzuB73LpvWk8EqY/edit
 
