@@ -136,7 +136,9 @@ l. <strong>Translations</strong> of the site into various languages. We have a t
 m. Architect a more secure way to maintain passwords and other secrets for team (Hashicorp Vault, etc.)
    
 n. Propose one of your own. 
+
 Cloud Recording of meeting discussing the following: https://zoom.us/rec/share/xcB6Jpfb51JJYomUtHPHcKNxG4X9eaa8h3BKqaFcyU8YjDv6Xi41Tiu0DZIuNqEF
+	
 	1. Create annimated video instructions for Host and Student applications
 	2. Update Ruby Refinery
 	3. Reset Footer links to refinery pages
