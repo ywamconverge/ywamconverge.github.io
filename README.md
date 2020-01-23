@@ -95,9 +95,10 @@ c. Mike Ko: Create <strong>automated test scripts</strong> to verify whether the
    4. Track over time how long it took to load page.
    5. other use cases (pages).
 
-d. Mike Ko: Identify in test site CSS/HTML changes to media query, etc. to display mobile screen size.
+d. Implement CSS/HTML changes to media query, etc. to display mobile screen size, as designed by Mona at:
+   https://docs.google.com/document/d/1fzrrrBXYAxcYfSFz-zeX42KR2iPnJzuB73LpvWk8EqY/edit
 
-d. Dan: Upgrade front-end server version upgrade (to Ruby, Postgres, TLS 1.2 for Braintree, etc.).
+d. Upgrade front-end server version upgrade (to Ruby, Postgres, TLS 1.2 for Braintree, etc.).
    
 e. Wilson: Create instructions (this page) to enable volunteers to create a dev environment and contribute changes. 
    
