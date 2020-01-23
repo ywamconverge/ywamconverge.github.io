@@ -135,8 +135,23 @@ l. <strong>Translations</strong> of the site into various languages. We have a t
    
 m. Architect a more secure way to maintain passwords and other secrets for team (Hashicorp Vault, etc.)
    
-n. Propose one of your own.
+n. Propose one of your own. 
+Cloud Recording of meeting discussing the following: https://zoom.us/rec/share/xcB6Jpfb51JJYomUtHPHcKNxG4X9eaa8h3BKqaFcyU8YjDv6Xi41Tiu0DZIuNqEF
+	1. Create annimated video instructions for Host and Student applications
+	2. Update Ruby Refinery
+	3. Reset Footer links to refinery pages
+	4. Make CSS changes for Mobile Responsiveness -  https://docs.google.com/document/d/1fzrrrBXYAxcYfSFz-zeX42KR2iPnJzuB73LpvWk8EqY/edit
+	5. Make Task Flow corrections - https://projects.invisionapp.com/share/CVUUOL59XU4#/screens/393555053/comments/125810009
 
+	6. Add links to Udemy Course on Rails site.
+	7. Internationalization - https://www.refinerycms.com/guides/translate-refinery
+		a. Translate to Portugues
+		b. Translate to Korean
+		c. Upload and manage all internationalization files
+	
+	Additional Items Kermit is working on:
+	8. Test Communities in Salesforce
+	9. Integrate Communities in Rails site.
 
 <a name="Collaboration"></a>
 
