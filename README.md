@@ -25,11 +25,11 @@ I. <a href="#TestDeploy">      Run tests, make changes, and deploy</a>
    For this non-profit, the <strong>persona</strong> are: interns, hosts, mentors, donors. 
    Each person goes through different status over time: prospective, active, inactive, alum.
 
-1. Obtain a coupon to <a target="_blank" href="https://www.udemy.com/course/draft/2390478/">Udemy courseware</a>.
+1. Obtain a coupon from John to access the video courseware.
+1. Provide the Coupon to <a target="_blank" href="https://www.udemy.com/course/draft/2390478/">Udemy courseware</a>.
 
-    The course material was migrated from <a target="_blank" href="https://coursesites.com/?sig=Mwuk9E96d1zi4kLs58vOveO3Tl8=&courseId=_190749_1&timestamp=1549132709&inviteId=BB?BB_QzCGaVfkHcOjnCyDupFaIrNNbv5DmyN82PEvwEmTOMMtUG+4ivX5IA==#invitation-student">the Blackboard system</a>. 
-
-   (Access the YWAM Converge training content at <a target="_blank" href="https://blackboard.coursesites.com/ultra/courses/_190749_1/cl/outline">https://blackboard.coursesites.com/ultra/courses/_190749_1/cl/outline</a>)
+   The course material was migrated from <a target="_blank" href="https://coursesites.com/?sig=Mwuk9E96d1zi4kLs58vOveO3Tl8=&courseId=_190749_1&timestamp=1549132709&inviteId=BB?BB_QzCGaVfkHcOjnCyDupFaIrNNbv5DmyN82PEvwEmTOMMtUG+4ivX5IA==#invitation-student">the Blackboard system</a>. 
+   accessed <a target="_blank" href="https://blackboard.coursesites.com/ultra/courses/_190749_1/cl/outline">here</a>)
  
 3. Click "YWAM Values" on the left menu to read it.
 4. Click "Start Here" on the left menu to read "Welcome to Converge".
