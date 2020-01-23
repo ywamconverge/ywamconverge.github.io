@@ -184,7 +184,7 @@ https://zoom.us/j/2361780585
    * Utility Git (needed by Capistrano)
    * PostgreSQL database
    * Ruby (programming language interpreter)
-   * Rails engine <a target="_blank" href="https://www.refinerycms.com/">Refinery CMS</a> which support for Amazon S3 cloud storage and makes use of
+   * Rails engine <a target="_blank" href="https://www.refinerycms.com/">Refinery CMS</a> (4.0.3 from the Gemfile). It supports Amazon S3 cloud storage and makes use of ...
    * ElasticSearch to do indexing and
    * Dragonfly for image editing
 
