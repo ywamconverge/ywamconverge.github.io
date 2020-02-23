@@ -184,6 +184,8 @@ https://calendly.com/john-t-henry
 
 6. WhatsApp group.
 
+7. Get AWS account credentials from one of the admins.
+8. After logging in the first time, you are prompted by AWS to change the password.
 
 <a name="ywamconverge"></a>
 
@@ -191,8 +193,6 @@ https://calendly.com/john-t-henry
 
 To work on the site:
 
-1. Get AWS account credentials from one of the admins.
-2. After logging in the first time, you are prompted by AWS to change the password.
 3. Use the Cloud9 app in the us-east-2 (Ohio) region:
 
    <a target="_blank" href="https://us-east-2.console.aws.amazon.com/cloud9/ide/231f5912a5af454aa264f17f2cc81c68">https://us-east-2.console.aws.amazon.com/cloud9/ide/231f5912a5af454aa264f17f2cc81c68</a>
@@ -201,7 +201,9 @@ To work on the site:
 
    ![ywam-c9-top](https://user-images.githubusercontent.com/300046/75109815-2e476200-55f5-11ea-9c96-3515706546e7.png)
 
-   Changes in one enviornment are copied to others.
+   Changes in one enviornment are copied to others by admins.
+
+   <a name="localization"></a>
 
 5. Localization resource yaml files are within folder <strong>config/locales</strong>
 
@@ -209,20 +211,41 @@ To work on the site:
 
    * en.yml is for english.
    * es.yml is for spanish.
-   * kr.yml is for korean.
+   * ko.yml is for korean.
+   * These are <a target="_blank" href="https://www.loc.gov/standards/iso639-2/php/code_list.php">legacy 2-letter ISO 639‑1 codes</a> rather than the <a target="_blank" href="https://en.wikipedia.org/wiki/Language_code">more modern 3-letter codes</a>.
    <br /><br />
 
    Text "hard-coded" in app code lookup keys when displaying text.
 
-   PROTIP: When beginning to translate an additonal language, copy the en.yml file, and do a find/replace all of <tt>: "</tt> to <tt>: "#</tt> to add a <tt>#</tt> in front of each English sentence so that it's easier to recognize untranslated text.
+   <pre>internship_location_culture_heading: "Internship Location & Culture"</pre>
+
+   in en.yml in es.yml is:
+   
+   <pre>internship_location_culture_heading: "Lugar & Cultura de Pasantía"</pre>
+
+   PROTIP: When beginning to translate an additonal language, copy the en.yml file, and do a find/replace all of <tt>: "</tt> to <tt>: "#</tt> so that a <tt>#</tt> leads each English sentence so that it's easier to recognize untranslated text.
 
    Remember that each new key needs to be added to every yml file.
 
-6. app code is mostly in folder <strong>app/views</strong>
+6. App code is mostly in folder <strong>app/views</strong>
 
-   Modern English language does not have some subtlies in other languages.
-   Some commercial apps contain additional coding for differences in formal vs informal (slang) language. Sophisticated apps may show different words if the person is a male/female, or to show respect to a senior person, etc. 
+   Specifically: app/views/projects/show.html.haml
 
+   Coding of a key which the program will replace with text looked up from a resource file:
+
+   <pre>%h3= t(:internship_location_culture_heading)</pre>
+
+   NOTE: Modern English language does not have some subtlies in other languages.
+   Many commercial apps contain additional coding for differences in formal vs informal (slang) language. Sophisticated apps may show different words if the person is a male/female, or to show respect to a senior person, etc. 
+
+   WARNING: Not all English words should be replaced with translation keys.
+   Some code reference programming text, such as:
+   
+   <tt>%p= @p.team_mode ? "Team" : "Individual"</tt>
+   
+   and
+   
+   <tt>class: "button button-orange entypo-apply"</tt>
 
 <a name="Website"></a>
 
@@ -250,13 +273,15 @@ To work on the site:
    * TODO: Utility to cleanse data
    <br /><br />
 
-2. Code and documentation about the website is at this GitHub repository:
+2. Code and documentation about the website is at this private GitHub repository:
 
-   <a target="_blank" href="https://github.com/ipoconnection/ipo-web">https://github.com/ipoconnection/ipo-web</a>
+   <a target="_blank" href="https://github.com/wilsonmar/ipo-web">https://github.com/wilsonmar/ipo-web</a>
+
+   It was previously at: https://github.com/ipoconnection/ipo-web
 
    BTW The name "IPO" is a carry-over of previous branding, and kinda stuck. We should rename it someday.
 
-   Optionally, if you want to examine the repo off-line, on your machine, create a folder and clone the repo onto your local laptop.
+   If you have access to examine the repo off-line, on your machine, create a folder and clone the repo onto your local laptop.
 
 3. Click the "Branch: master" and select the branch Dan is current using: <tt>upgrade-rails-4.0</tt>
 
