@@ -164,10 +164,9 @@ If you haven't used the tools mentioned here, we will train you so that you can 
 1. Make an appointment with John at
 https://calendly.com/john-t-henry
 
-John makes use of Zoom for group video conferencing that can be recorded. The Zoom Meeting ID is:
-236-178-0585
+   John makes use of Zoom for group video conferencing that can be recorded. The Zoom Meeting ID is: 236-178-0585
 
-https://zoom.us/j/2361780585
+   https://zoom.us/j/2361780585
 
 
 2. From John, get an email invite to the Slack channel used by developers (join the channels):
@@ -184,6 +183,45 @@ https://zoom.us/j/2361780585
 5. Saleforce Chatter real-time text message we use to make announcements that get sent out as emails.
 
 6. WhatsApp group.
+
+
+<a name="ywamconverge"></a>
+
+### D1) ywamconverge.org public-facing app 
+
+To work on the site:
+
+1. Get AWS account credentials from one of the admins.
+2. After logging in the first time, you are prompted by AWS to change the password.
+3. Use the Cloud9 app in the us-east-2 (Ohio) region:
+
+   <a target="_blank" href="https://us-east-2.console.aws.amazon.com/cloud9/ide/231f5912a5af454aa264f17f2cc81c68">https://us-east-2.console.aws.amazon.com/cloud9/ide/231f5912a5af454aa264f17f2cc81c68</a>
+
+4. There are different environments (including a "Translator environmet").
+
+   ![ywam-c9-top](https://user-images.githubusercontent.com/300046/75109815-2e476200-55f5-11ea-9c96-3515706546e7.png)
+
+   Changes in one enviornment are copied to others.
+
+5. Localization resource yaml files are within folder <strong>config/locales</strong>
+
+   ![ywam-c9-config](https://user-images.githubusercontent.com/300046/75109920-ac0b6d80-55f5-11ea-82f9-4e43e6bf12fa.png)
+
+   * en.yml is for english.
+   * es.yml is for spanish.
+   * kr.yml is for korean.
+   <br /><br />
+
+   Text "hard-coded" in app code lookup keys when displaying text.
+
+   PROTIP: When beginning to translate an additonal language, copy the en.yml file, and do a find/replace all of <tt>: "</tt> to <tt>: "#</tt> to add a <tt>#</tt> in front of each English sentence so that it's easier to recognize untranslated text.
+
+   Remember that each new key needs to be added to every yml file.
+
+6. app code is mostly in folder <strong>app/views</strong>
+
+   Modern English language does not have some subtlies in other languages.
+   Some commercial apps contain additional coding for differences in formal vs informal (slang) language. Sophisticated apps may show different words if the person is a male/female, or to show respect to a senior person, etc. 
 
 
 <a name="Website"></a>
