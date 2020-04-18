@@ -201,6 +201,9 @@ To work on the site:
 
    ![ywam-c9-top](https://user-images.githubusercontent.com/300046/75109815-2e476200-55f5-11ea-9c96-3515706546e7.png)
 
+   "Translator Environment" files are used in<br />
+   <a target="_blank" href="https://glenis.ywamconverge.org/">https://glenis.ywamconverge.org</a>
+
    Changes in one enviornment are copied to others by admins.
 
    <a name="localization"></a>
