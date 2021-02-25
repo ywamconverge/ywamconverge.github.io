@@ -401,16 +401,13 @@ The production Salesforce instance is <a target="_blank" href="https://studentmo
 
    1. John Henry, as the CEO, owns the all-powerful System Administrator permissions for the production org.
    2. Mary Henry has the System Administrator "Accountant" role.
-   3. support@ywamconverge.org is only emails.
-   4. API IDM is the user for API calls (does not use the UI).
-   5. Daniel Bryan is the root System Administrator.
+   3. API IDM is the user for API calls (does not use the UI).
+   4. Daniel Bryan is the root System Administrator.
 
-   6. Oliver Tesslof has a System Administrator role. He is a primary Salesforce Dev volunteer
-   7. Sneha Sinha has a System Administrator role as a Salesforce Volunteer.
-
-   8. Glenis Acost has a Program Director role as a Spanish Translator.
-   9. wilsonmar@uofn.edu
-   10. Myriam Parra mision.miriamparra@gmail has a Spanish Approver role.
+   5. Oliver Tesslof has a System Administrator role. He is a primary Salesforce Dev volunteer
+   6. Glenis Acost has a Program Director role as a Spanish Translator.
+   7. wilsonmar@uofn.edu
+   8. Myriam Parra mision.miriamparra@gmail has a Spanish Approver role.
    <br /><br />
 
 There is a secret repository holding passwords to the production site.
