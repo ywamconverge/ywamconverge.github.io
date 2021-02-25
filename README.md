@@ -26,13 +26,13 @@ I. <a href="#TestDeploy">      Run tests, make changes, and deploy</a>
    Each person goes through different status over time: prospective, active, inactive, alum.
 
 1. Obtain a coupon from John to access the video courseware.
-1. Provide the Coupon to <a target="_blank" href="https://www.udemy.com/course/draft/2390478/">Udemy courseware</a>.
+1. This is a free 48-VIP Backstage Pass to <a target="_blank" href="https://ywam-converge.teachable.com/purchase?product_id=2605714">Converge Course</a>.
 
    The course material was migrated from <a target="_blank" href="https://coursesites.com/?sig=Mwuk9E96d1zi4kLs58vOveO3Tl8=&courseId=_190749_1&timestamp=1549132709&inviteId=BB?BB_QzCGaVfkHcOjnCyDupFaIrNNbv5DmyN82PEvwEmTOMMtUG+4ivX5IA==#invitation-student">the Blackboard system</a>. 
    accessed <a target="_blank" href="https://blackboard.coursesites.com/ultra/courses/_190749_1/cl/outline">here</a>)
  
-3. Click "YWAM Values" on the left menu to read it.
-4. Click "Start Here" on the left menu to read "Welcome to Converge".
+3. To understand the Youth With A Mission movement, YWAM Converge is part of, go to <a target="_blank" href-"https://ywam.org/about-us/values/">YWAM Values</a>.
+4. Click "Go to Course Curriculum" and start with the "Welcome to Converge" unit.
 5. Scroll down to watch the "What is YWAM" video. <strong>Click the volume icon to unmute.</strong>
 
    When did YWAM (the parent organization) start? See <a target="_blank" href="https://youtu.be/Uz0EesM-G04">https://youtu.be/Uz0EesM-G04</a>
@@ -41,7 +41,7 @@ I. <a href="#TestDeploy">      Run tests, make changes, and deploy</a>
 
    <img alt="ywam-contribute-648x636-38472.jpg" width="500" src="https://user-images.githubusercontent.com/300046/54088143-34372b00-4331-11e9-952c-c7470f39d708.jpg">
 
-7. Open a browser tab to the <a target="_blank" href="https://www.ywamocnj.org/faq/">FAQ</a> (Frequently Asked Questions) to see if you can answer the questions before revealing the answer. Kinda like a quiz.
+7. Open a browser tab to the <a target="_blank" href="https://ywamconverge.org/faq/">FAQ</a> (Frequently Asked Questions) to see if you can answer the questions before revealing the answer. Kinda like a quiz.
 
    <a name="Procedures"></a>
    
@@ -88,7 +88,7 @@ b. John: Create videos for display in emails (instead of text) about next steps,
 c. Mike Ko: Create <strong>automated test scripts</strong> to verify whether the system works "end-to-end" (for different personas), to identify whether the sytem still works after changes.
 
    1. Instructions for installing https://www.cypress.io/ on Windows (not Mac yet) in https://github.com/ywamconverge/ywamconverge.github.io/edit/master/TESTING.md and opinions about it vs. other tools
-   2. Write tests to invoke then assert responses from top menu (Facebook, Search for "signup", Donate, Videos on landing page) on the production page https://www.ywamocnj.org/.
+   2. Write tests to invoke then assert responses from top menu (Facebook, Search for "signup", Donate, Videos on landing page) on the production page https://www.ywamconverge.org/.
    3. Student sign-up (not appearing in prod but in test site)
    4. Track over time how long it took to load page.
    5. other use cases (pages).
@@ -164,10 +164,9 @@ If you haven't used the tools mentioned here, we will train you so that you can 
 1. Make an appointment with John at
 https://calendly.com/john-t-henry
 
-   John makes use of Zoom for group video conferencing that can be recorded. The Zoom Meeting ID is: 236-178-0585
+   John makes use of Zoom for group video conferencing that can be recorded. John Henry is inviting you to a scheduled Zoom meeting.
 
-   https://zoom.us/j/2361780585
-
+https://zoom.us/j/6212275173?pwd=N01vS1FoUS9qR2thbzdLb2J4c0FWQT09
 
 2. From John, get an email invite to the Slack channel used by developers (join the channels):
 
@@ -254,10 +253,10 @@ To work on the site:
 
 ## E) Copy the public-facing website
 
-1. Open an internet browser to visit the production webpage for the non-profit at:
+1. Open an internet browser to visit the production webpage:
 
-   <a target="_blank" href="https://www.ywamocnj.org/">https://www.ywamocnj.org/</a><br />
-   Youth With A Mission - Ocean City New Jersey
+   <a target="_blank" href="https://ywamconverge.org/">https://www.ywamconverge.org/</a><br />
+   YWAM Converge - Ocean City New Jersey
 
    The tech behind the website consists of several components (all free open-source):
 
@@ -401,17 +400,17 @@ TODO: Add to the name the number of days since Jan 1 of the year.
 The production Salesforce instance is <a target="_blank" href="https://studentmobilizationcentre.my.salesforce.com">https://studentmobilizationcentre.my.salesforce.com</a>, but to avoid additional charges we are trying to keep the number of people accessing it. Named users in SF are first initial and last name with no space.
 
    1. John Henry, as the CEO, owns the all-powerful System Administrator permissions for the production org.
-   2. Mary Henry has the Standard "Executive Director" role.
+   2. Mary Henry has the System Administrator "Accountant" role.
    3. support@ywamconverge.org is only emails.
    4. API IDM is the user for API calls (does not use the UI).
    5. Daniel Bryan is the root System Administrator.
 
-   6. James Strong "System Administrator" ?
-   7. jessica.kalisa@gmail.com "Program Volunteer".
+   6. Oliver Tesslof has a System Administrator role. He is a primary Salesforce Dev volunteer
+   7. Sneha Sinha has a System Administrator role as a Salesforce Volunteer.
 
-   8. kermit Vestal kermitv@ywamocnj.org
+   8. Glenis Acost has a Program Director role as a Spanish Translator.
    9. wilsonmar@uofn.edu
-   10. ?
+   10. Myriam Parra mision.miriamparra@gmail has a Spanish Approver role.
    <br /><br />
 
 There is a secret repository holding passwords to the production site.
